@@ -1,0 +1,170 @@
+.overall{
+    padding: 0;
+    margin:0;
+}
+.links{
+    flex: 1;
+    text-align: center;
+    
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0% 12px;
+    position: relative;
+   
+}
+.overall{
+    padding: 0% 0% 0% 0%;
+    margin: 0%;
+}
+.midimages ul li{
+    position: absolute;
+    list-style: none;
+}
+.midimages{
+    padding: 0% 0% 0% 3%;
+    
+}
+.activities{
+    padding: 29% 0% 0% 40%;
+}
+
+.images-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0% 10%;
+}
+.lastofpage{
+    margin: 0% 1% 0% 1%;
+    padding: 0% 0% 0% 3%;
+    background-color:rgb(145, 143, 143);
+    border-style: solid;
+    border-color: rgb(153, 145, 160);
+}
+.contact{
+    text-align: center;
+    position: relative;
+}
+u{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3.1px;
+    text-decoration-color: red;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 5%;
+    height: 1%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    display: inline-block;
+    height: 15px;
+    color: #fff;
+    line-height: 200px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+.logo{
+      display: grid;
+      grid-template-columns: 1fr 1fr 2fr 0.1fr;
+}
+.logo ul li{
+      list-style: none;
+      justify-content: space-between;
+}
+.address{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.res-circle {
+    width: 80%;
+    border-radius: 50%;
+    background: #c5d1e4;
+    border-style: solid;
+    border-color: rgb(91, 91, 95);
+    line-height: 0;
+    position: relative;
+  }
+  .res-circle::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+   
+  .circle-txt {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+  }
+  .cir-text{
+      
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      justify-content: space-around;
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  .avatars {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .profile-text{
+      padding: 0% 0% 0% 10%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  .heads{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .names{
+      padding-top: 30%;
+      padding-right:20%;
+      font-family: 'Oswald', sans-serif;
+  }
+  .heads3{
+      padding: 5% 20% 0% 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .heads2{
+    padding: 5% 30% 0% 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.pic-text{
+    padding-top: 15%;
+    font-family: 'Oswald', sans-serif;
+}
+.wrapper{
+    padding: 10%;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1.7fr 0.1fr;
+}
